@@ -1,0 +1,62 @@
+#beeld {
+    position: absolute;
+    border: solid rgb(0, 0, 0);
+    border-width: 30px;
+    height: 844px;
+    width:  1500px;
+}
+
+#video {
+    position: absolute; 
+    margin-top: -48px;
+    margin-left: 30px;
+}
+
+#knopje {
+    position: absolute;
+    border: solid rgb(0, 255, 51);
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    color: rgb(0, 255, 51);
+    font-size: 50px;
+    width: 160px;
+    height: 50px;
+    margin-top: 900px;
+}
+#knopje1 {
+    position: absolute;
+    border: solid rgb(0, 255, 51);
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    color: rgb(0, 255, 51);
+    font-size: 50px;
+    width: 160px;
+    height: 50px;
+    margin-top: 900px;
+    margin-left: 160px;
+}
+
+#knopje2 {
+    position: absolute;
+    border: solid rgb(0, 255, 51);
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    color: rgb(0, 255, 51);
+    font-size: 50px;
+    width: 160px;
+    height: 50px;
+    margin-top: 900px;
+    margin-left: 320px;
+}
+#knopje3 {
+    position: absolute;
+    border: solid rgb(0, 255, 51);
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    color: rgb(0, 255, 51);
+    font-size: 50px;
+    width: 160px;
+    height: 50px;
+    margin-top: 900px;
+    margin-left: 483px;
+}

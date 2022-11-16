@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="../workshop 2/index.html"></script>
+    <link rel="stylesheet" href="../workshop 2/styling.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+    
+<body>
+    <div class="tv">
+        <div id="beeld"></div>
+        <div id="video">
+            <video id="player" width="1500" height="1000" autoplay="autoplay">
+                <source id="source" src="../workshop 2/video/Max Mayorov Devotion BASS BOOSTED Bagged M3_v720P.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div id="knop">
+        <a id="knopje" onclick="myFunction()"><Strong>video 1</Strong></a>
+    </div>
+    <div id="knop1">
+        <a id="knopje1" onclick="myFunction1()"><strong>video 2</strong></a>
+    </div>
+    <div id="knop2">
+        <a id="knopje2" onclick="myFunction2()"><strong>pauze</strong></a>
+    </div>
+    <div id="knop3">
+        <a id="knopje3" onclick="myFunction3()"><strong>play</strong></a>    
+    </div>
+
+
+
+    <script>
+        function myFunction() {
+            var video = document.getElementById('player');
+            var source = document.getElementById('source');
+            source.setAttribute('src','../workshop 2/video/Rihanna Love The Way You Lie NORTKASH Remix_1080pFHR.mp4');
+            video.load();
+            video.play();
+        }
+    </script>
+
+<script>
+    function myFunction1() {
+        var video = document.getElementById('player');
+        var source = document.getElementById('source');
+        source.setAttribute('src', '../workshop 2/video/Max Mayorov Devotion BASS BOOSTED Bagged M3_v720P.mp4');
+        video.load();
+        video.play();
+    }
+</script>
+<script>
+    function myFunction2() {
+        var video = document.getElementById('player');
+        video.pause();
+    }
+</script>
+]<script>
+    function myFunction3() {
+        var video = document.getElementById('player');
+        video.play();
+    }
+</script>
+</body>
+
+</html>
