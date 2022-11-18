@@ -1,79 +1,71 @@
-.body {
+body {
     font-size: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#container {
+    width: 90%;
+    max-width: 960px;
+    height: 300px;
+    margin: 10px auto;
 }
 
 #header {
-    position: absolute;
+    width: 960px;
+    max-width: 100%;
+    height: 300px;
     background-color: blue;
-    height: 400px;
-    width: 100%;
+    margin: 10px auto;
 }
 
 #nav {
-    font-size: 50px;
-    position: absolute;
-    background-color: blue;
     height: 50px;
-    width: 100%;
-    margin-top: 420px;
-}
-
-#Aside {
-    font-size: 50px;
-    position: absolute;
-    background-color: rgb(0, 145, 255);
-    height: 400px;
-    width: 200px; 
-    margin-top: 500px;
-    margin-left: 740px;
+    width: 960px;
+    max-width: 100%;
+    margin: 10px auto;
+    background-color: blue;
 }
 
 #main {
-    font-size: 50px;
-    position: absolute;
-    background-color: rgb(0, 145, 255);
     width: 648px;
-    height: 600px;
-    margin-top: 500px;
-}   
+    max-width: 83.33333333333334%;
+    height: 560px;
+    background-color: lightblue;
+    float: left;
+    padding: 10px;
+}
+
+.blokje {
+    width: 540px; 
+    max-width: 100%;
+    height: 150px;
+    background-color: blue;
+    margin: 10px auto;
+}
+
+#aside {
+    width: 240px;
+    max-width: 100%;
+    height: 550px;
+    background-color: lightblue;
+    float: right;
+}
 
 #footer {
-    font-size: 50px;
-    position: absolute;
-    background-color: rgb(13, 0, 255);
-    width: 100%;
-    height: 400px;
-    margin-top: 1200px;
+    clear: both;
+    width: 960px;
+    max-width: 100%;
+    height: 250px;
+    background-color: blue;
+    margin: 10px auto;
 }
 
-#artical {
-    font-size: 50px;
-    position: absolute;
-    background-color: rgb(0, 13, 255);
-    height: 150px;
-    width: 540px; 
-    margin-top: 880px;
-    margin-left: 50px;
+@media all and (max-width: 768px){
+    #main {
+        width: 100%;
+    }
+
+    #aside {
+        width: 100%;
+    }
 }
-
-
-#artical1 {
-    font-size: 50px;
-    position: absolute;
-    background-color: rgb(0, 13, 255);
-    height: 150px;
-    width: 540px; 
-    margin-top: 520px;
-    margin-left: 50px;
-}
-
-#artical2 {
-    font-size: 50px;
-    position: absolute;
-    background-color: rgb(0, 13, 255);
-    height: 150px;
-    width: 540px; 
-    margin-top: 700px;
-    margin-left: 50px;
-}
-
