@@ -1,16 +1,4 @@
-* {
-    background-color: black;
-}
-#container {
-    max-width: 960px;
-    width: 100%;
-    height: 400px;
-    color: white;
-}
-
-#pickture1 {
-    float: left;
-}
-
-#Nummer1 {
+#Muziek {
+    align-items: flex-end;
+    display: inline-block;
 }
