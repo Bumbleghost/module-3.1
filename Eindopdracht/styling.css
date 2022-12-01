@@ -9,6 +9,7 @@ body {
 
 #foto1 {
     position: absolute;
+    margin-left: -8px;
     width: 100%;
     height: auto;
     opacity: 40%;
@@ -172,67 +173,105 @@ header h1 {
     display: block;
   }
 
-  #Vooter {
-    background-color:#344E41;
-    border: solid black 2px;
-    margin-left: -1%;
-    height: 115px;
-    width: 101.5%;
-    max-width: 1940px;
-    margin-top: -2%;
+  footer {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+    clear: both;
+    background-color: var(--dark-green);
+    /* border: solid black 2px; */
+    height: 60vh;
+
+    font-size: 20px;
+
+    text-align: center;
+
+  }
+  
+  #footertext {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    padding-top: 50px;
+
+    color: #dad7cd;
+    font-size: 100%;
+  }
+  
+  #footertext1 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    color: #dad7cd;
+    font-size: 100%;
+  
+  }
+  
+  #footertext2 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    padding-bottom: 50px;
+    
+    font-size: 100%;
+    color: #dad7cd;
   }
 
-
-#footertext {
-    position: absolute;
-    color: #DAD7CD;
-    font-size: 125%;
-    margin-left: 10%;
-}
-
-#footertext1 {
-    position: absolute;
-    color: #DAD7CD;
-    font-size: 100%;
-    margin-left: 10%;
-    margin-top: 20px;
-
-}
-
-#footertext2 {
-    font-size: 125%;
-    position: absolute;
-    color: #DAD7CD;
-    margin-left: 70%;
-}
-
-#footertext3 {
-    position: absolute;
-    color: #DAD7CD;
-    margin-left: 70%;
-    margin-top: 30px;
-    font-size: 100%;
-}
-
-#footertext4 {
-    position: absolute;
-    color: #DAD7CD;
-    font-size: 125%;
-    margin-left: 42%;
-}
-
-#footertext5 {
-    position: absolute;
-    color: #DAD7CD;
-    font-size: 100%;
-    margin-top: 33px;
-    margin-left: 42%;
-}
-
-#footertext6 {
-    position: absolute;
-    color: #DAD7CD;
-    font-size: 100%;
-    margin-top: 50px;
-    margin-left: 10%;
-}
+  @media all and (min-width: 320px) and (max-width: 768px) {
+    header {
+      width: 100vw;
+      height: 12vh;
+    }
+  
+    footer {
+      display: flex;
+      flex-direction:column;
+      flex-wrap: wrap;
+  
+      clear: both;
+      background-color: var(--dark-green);
+      /* border: solid black 2px; */
+      height: 60vh;
+  
+      font-size: 20px;
+  
+      text-align: center;
+  
+    }
+    
+    #footertext {
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+  
+      padding-top: 50px;
+  
+      color: #dad7cd;
+      font-size: 100%;
+    }
+    
+    #footertext1 {
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+  
+      color: #dad7cd;
+      font-size: 100%;
+    
+    }
+    
+    #footertext2 {
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+  
+      padding-bottom: 50px;
+      
+      font-size: 100%;
+      color: #dad7cd;
+    }
+  }
